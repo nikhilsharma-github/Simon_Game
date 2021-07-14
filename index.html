@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simon</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+  <div class="font">
+    <h3 id="game-title" >THE SIMON GAME</h3>
+    <h1 id="level-title">Press Here to Start</h1>
+    <div class="container">
+      <div class="row">
+        
+        <div type="button" id="green" class="btn green">
+          
+        </div>
+        
+        <div type="button" id="red" class="btn red">
+          
+        </div>
+      </div>
+      
+      <div class="row">
+        
+        <div type="button" id="yellow" class="btn yellow">
+          
+        </div>
+        <div type="button" id="blue" class="btn blue">
+          
+        </div>
+        
+      </div>
+      <div  class="score">
+        <h2 ><em id="scoreID"></em></h2>
+      </div>
+      
+      <div class="howToPlay ">
+        <h2 id="howToPlayID" >?? <br>HOW TO PLAY<br> ??</h2>
+        <!-- <i id="arrowID" class="fas fa-arrow-down fa-3x rotate"></i> -->
+        <div id="point-title" class="instructions">
+          <ol >
+            <li>At Every level, A new signal will be generated.</li>
+            <li>Before entering the current signal response, Enter all the signals in the same order as it was generated
+              from the level 1.</li>
+              <li>Correct imitation will Level Up the game.</li>
+              <li>Wrong Imitation will result GAME OVER.</li>
+              <!-- <p class="good-luck">GOOD LUCK <i class="fas fa-thumbs-up fa-1x"></i></p> -->
+            </ol>
+            <img src="https://media.giphy.com/media/xT0xeLn9vPCB3eqjEk/giphy.gif" alt="">
+          </div>
+        </div>
+      </div>
+      
+    </div>
+      <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"></script>
+  <script src="game.js"></script>
+</body>
+
+</html>
