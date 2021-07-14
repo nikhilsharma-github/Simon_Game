@@ -132,9 +132,7 @@ img {
     height: 50px;
     width: 50px;
   }
-  body {
-    background-color: rgb(0, 0, 0);
-  }
+  
   
   #level-title{
     font-size: 1rem;
@@ -162,9 +160,7 @@ img {
     height: 80px;
     width: 80px;
   }
-  body {
-    background-color: rgb(59, 54, 54);
-  }
+  
   #level-title{
     font-size: 1.5rem;
     
@@ -186,14 +182,10 @@ img {
     margin: 0 auto;
     width: 80%;
   }
-  body {
-    background-color: rgb(253, 0, 219);
-  }
+  
 }
 @media (min-width: 320px) and (max-width: 696px) {
-  body {
-    background-color: rgb(4, 1, 41);
-  }
+  
   .container {
     margin: 0 auto;
     width: 80%;
@@ -241,7 +233,5 @@ img {
     
   }
   
-  body {
-    background-color: rgb(253, 114, 0);
-  }
+ 
 }
